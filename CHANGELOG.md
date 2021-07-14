@@ -5,7 +5,7 @@
 1. [#242](https://github.com/influxdata/influxdb-client-java/pull/242): Add Spring Boot configuration metadata that helps the IDE understand the `application.properties` [spring]
 
 ### Bug Fixes
-1. [#246](https://github.com/influxdata/influxdb-client-java/pull/246): Parsing Infinite numbers into `Double`
+1. [#246](https://github.com/influxdata/influxdb-client-java/pull/246): Parsing infinite numbers
 
 ## 3.0.0 [2021-07-09]
 
