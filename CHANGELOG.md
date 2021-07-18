@@ -1,7 +1,14 @@
 ## 3.0.1 [2021-07-16]
 
+### Breaking Changes
+
+#### `influxdb-spring`:
+
+Change configuration prefix from `spring.influx2` to `influx` according to [Spring Docs](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.developing-auto-configuration.custom-starter.configuration-keys) - for more info see [README.md](./spring).
+
 ### Features
 1. [#242](https://github.com/influxdata/influxdb-client-java/pull/242): Add Spring Boot configuration metadata that helps the IDE understand the `application.properties` [spring]
+1. [#244](https://github.com/influxdata/influxdb-client-java/pull/244): Add support for auto-configure the reactive client - `InfluxDBClientReactive` [spring]
 
 ### Bug Fixes
 1. [#248](https://github.com/influxdata/influxdb-client-java/pull/248): Remove not supported autoconfiguration [spring]
